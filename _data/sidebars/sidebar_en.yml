@@ -1,0 +1,72 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Menu
+  version:
+  folders:
+
+  - title: Accueil
+    output: web, pdf
+    folderitems:
+
+    - title: Page d'accueil
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Présentation du projet
+      url: /projet.html
+      output: web, pdf
+
+    - title: Bases théoriques et état de l'art
+      url: /etatdelart.html
+      output: web, pdf
+
+  - title: Méthodologie
+    output: web, pdf
+    folderitems:
+
+    - title: Objectifs scientifiques
+      url: /objectifs.html
+      output: web, pdf
+
+    - title: Cas d'étude
+      url: /casdetude.html
+      output: web, pdf
+
+    - title: Outils numériques
+      url: /outils.html
+      output: web, pdf
+
+  - title: Résultats
+    output: web, pdf
+    folderitems:
+
+    - title: Identifiabilité des modèles
+      url: /identifiabilite.html
+      output: web, pdf
+
+    - title: Caractérisation en temps réel
+      url: /tempsreel.html
+      output: web, pdf
+
+    - title: Prise en compte des occupants
+      url: /occupants.html
+      output: web, pdf
+
+    - title: Récapitulatif
+      url: /recapitulatif.html
+      output: web, pdf
+
+  - title: Production scientifique
+    output: web, pdf
+    folderitems:
+
+    - title: Rapports
+      url: /rapports.html
+      output: web, pdf
+
+    - title: Publications et présentations
+      url: /publications.html
+      output: web, pdf

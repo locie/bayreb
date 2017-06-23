@@ -1,0 +1,202 @@
+[
+
+
+
+
+{
+"title": "A propos de ce site",
+"tags": "indexsommaire",
+"keywords": "ebe, environnement, bâtiment, énergie, polytech",
+"url": "apropos.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Cas d&#39;étude",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "casdetude.html",
+"summary": "Sur quels bâtiments, fictifs ou réels, la méthodologie BAYREB sera appliquée, testée et validée"
+}
+,
+
+
+
+{
+"title": "Etat de l&#39;art et bases théorique",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "etatdelart.html",
+"summary": "Aperçu des pratiques existantes pour le diagnostic énergétique, et revue bibliographique des problématiques inhérentes aux problèmes inverses"
+}
+,
+
+
+
+
+
+{
+"title": "Identifiabilité",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "identifiabilite.html",
+"summary": "Identifiabilité des paramètres des modèles thermiques de bâtiments"
+}
+,
+
+
+
+{
+"title": "Accueil",
+"tags": "indexsommaire",
+"keywords": "bayreb, diagnostic",
+"url": "index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Home",
+"tags": "indexsommaire",
+"keywords": "bayreb, diagnostic",
+"url": "index_en.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Navtabs",
+"tags": "formatting",
+"keywords": "navigation tabs, hide sections, tabbers, interface tabs",
+"url": "mydoc_navtabs.html",
+"summary": "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of content. Navtabs are especially helpful for showing code samples for different programming languages. The only downside to using navtabs is that you must use HTML instead of Markdown."
+}
+,
+
+
+
+{
+"title": "Objectifs du projet",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "objectifs.html",
+"summary": "Questionnement scientifique qui a justifié le projet BAYREB, et étapes du travail pour y répondre"
+}
+,
+
+
+
+{
+"title": "Prise en compte des occupants",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "occupants.html",
+"summary": "Sous-titre"
+}
+,
+
+
+
+{
+"title": "Outils",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "casdetude.html",
+"summary": "Quels outils numériques sont utilisés au cours du projet"
+}
+,
+
+
+
+
+
+{
+"title": "Présentation du projet BAYREB",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "projet.html",
+"summary": "Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation"
+}
+,
+
+
+
+{
+"title": "Publications",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "publications.html",
+"summary": "Sous-titre"
+}
+,
+
+
+
+{
+"title": "Rapports",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "rapports.html",
+"summary": "Sous-titre"
+}
+,
+
+
+
+{
+"title": "Récapitulatif",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "recapitulatif.html",
+"summary": "Sous-titre"
+}
+,
+
+
+
+
+
+
+
+
+
+{
+"title": "Caractérisation en temps réel",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "tempsreel.html",
+"summary": "Sous-titre"
+}
+,
+
+
+
+{
+"title": "Analogie électrique",
+"tags": "thermique",
+"keywords": "thermique, bâtiment, énergie, analogie, électrique",
+"url": "thermique_analogie.html",
+"summary": "Représenter les transferts thermiques comme des courants électriques pour pouvoir faire des calculs simples"
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
