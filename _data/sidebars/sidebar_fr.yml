@@ -13,7 +13,6 @@ entries:
     - title: Page d'accueil
       url: /index.html
       output: web, pdf
-      type: homepage
 
     - title: Présentation du projet
       url: /projet.html
