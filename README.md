@@ -1,8 +1,9 @@
-# Bayreb
+# BAYREB
 
-Le site web du projet ANR BAYREB est en cours de maintenance. La nouvelle version est prévue pour être affichée ici le 30 juin 2017.
+Le site web du projet ANR BAYREB se trouve à l'adresse suivante :
 
 https://locie.github.io/bayreb/
 
-http://www.agence-nationale-recherche.fr/?Projet=ANR-15-CE22-0003
+Vous pouvez également en trouver une description sur le site de l'ANR :
 
+http://www.agence-nationale-recherche.fr/?Projet=ANR-15-CE22-0003
