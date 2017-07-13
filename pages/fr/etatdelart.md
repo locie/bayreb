@@ -9,24 +9,13 @@ topnav: topnav_fr
 toc: true
 ---
 
-## Section 1
+L'étude bibliographique par laquelle le projet BAYREB a commencé est disponible [sur le dépôt du projet](https://github.com/locie/bayreb/blob/master/Reports/Livrable%20A1%20-%20etat%20des%20lieux.pdf) dans sa version complète. En voici la table des matières :
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-* [Université Savoie Mont-Blanc](https://www.univ-smb.fr/)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Section 2
-
-Avec ce modèle de site on peut inclure des équations
-
-$$ \varphi = U . \Delta T = \dfrac{1}{R} . \Delta T$$
-
-Et des tableaux
-
-|  | Variable | Dimension |  |
-|-------|--------|---------|
-| $$R$$ | Résistance | (m$$^2$$.K)/W | s'additionne en série |
-| $$U$$ | Coefficient de transfert surfacique | W/(m$$^2$$.K) |  |
-| $$D$$ | Coefficient de déperdition | W/K | s'additionne en parallèle |
+* Etat des lieux du diagnostic et de la caractérisation in situ
+  * Le diagnostic de performance énergétique
+  * Les méthodes de signature énergétique
+  * Les méthodes de caractérisation dynamique
+* Les problèmes inverses et leur résolution
+  * Généralités sur les problèmes inverses
+  * L'inférence Bayésienne
+  * Identifiabilité, sélection de modèles et plans d'expérience

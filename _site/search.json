@@ -15,17 +15,6 @@
 
 
 {
-"title": "Cas d&#39;étude",
-"tags": "tag1tag2",
-"keywords": "bayreb, anr",
-"url": "casdetude.html",
-"summary": "Sur quels bâtiments, fictifs ou réels, la méthodologie BAYREB sera appliquée, testée et validée"
-}
-,
-
-
-
-{
 "title": "Etat de l&#39;art et bases théorique",
 "tags": "tag1tag2",
 "keywords": "bayreb, anr",
@@ -83,17 +72,6 @@
 
 
 {
-"title": "Objectifs du projet",
-"tags": "tag1tag2",
-"keywords": "bayreb, anr",
-"url": "objectifs.html",
-"summary": "Questionnement scientifique qui a justifié le projet BAYREB, et étapes du travail pour y répondre"
-}
-,
-
-
-
-{
 "title": "Prise en compte des occupants",
 "tags": "tag1tag2",
 "keywords": "bayreb, anr",
@@ -105,11 +83,11 @@
 
 
 {
-"title": "Outils",
+"title": "Cas d&#39;étude et outils numériques",
 "tags": "tag1tag2",
 "keywords": "bayreb, anr",
-"url": "casdetude.html",
-"summary": "Quels outils numériques sont utilisés au cours du projet"
+"url": "outils.html",
+"summary": "Quels outils expérimentaux et numériques sont utilisés au cours du projet"
 }
 ,
 
@@ -134,6 +112,17 @@
 "keywords": "bayreb, anr",
 "url": "publications.html",
 "summary": "Sous-titre"
+}
+,
+
+
+
+{
+"title": "Questionnements scientifiques",
+"tags": "tag1tag2",
+"keywords": "bayreb, anr",
+"url": "questionnements.html",
+"summary": "Les principaux verrous scientifiques auxquels le projet se propose de répondre"
 }
 ,
 

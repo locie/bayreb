@@ -6,7 +6,7 @@ entries:
   version:
   folders:
 
-  - title: Accueil
+  - title: Description du projet
     output: web, pdf
     folderitems:
 
@@ -18,29 +18,21 @@ entries:
       url: /projet.html
       output: web, pdf
 
-    - title: Bases théoriques et état de l'art
-      url: /etatdelart.html
+    - title: Questionnements scientifiques
+      url: /questionnements.html
       output: web, pdf
 
-  - title: Méthodologie
-    output: web, pdf
-    folderitems:
-
-    - title: Objectifs scientifiques
-      url: /objectifs.html
-      output: web, pdf
-
-    - title: Cas d'étude
-      url: /casdetude.html
-      output: web, pdf
-
-    - title: Outils numériques
+    - title: Cas d'étude et outils numériques
       url: /outils.html
       output: web, pdf
 
   - title: Résultats
     output: web, pdf
     folderitems:
+
+    - title: Bases théoriques et état de l'art
+      url: /etatdelart.html
+      output: web, pdf
 
     - title: Identifiabilité des modèles
       url: /identifiabilite.html

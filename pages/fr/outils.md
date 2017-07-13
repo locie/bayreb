@@ -1,7 +1,7 @@
 ---
-title: "Outils"
-summary: "Quels outils numériques sont utilisés au cours du projet"
-permalink: casdetude.html
+title: "Cas d'étude et outils numériques"
+summary: "Quels outils expérimentaux et numériques sont utilisés au cours du projet"
+permalink: outils.html
 keywords: bayreb, anr
 tags: [tag1, tag2]
 sidebar: sidebar_fr
@@ -9,24 +9,18 @@ topnav: topnav_fr
 toc: true
 ---
 
-## Section 1
+## Cas d'étude
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Benchmark numérique
 
-* [Université Savoie Mont-Blanc](https://www.univ-smb.fr/)
+Maisons INCA
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Outils numériques
 
-## Section 2
+Python
 
-Avec ce modèle de site on peut inclure des équations
+R
 
-$$ \varphi = U . \Delta T = \dfrac{1}{R} . \Delta T$$
+Modelica
 
-Et des tableaux
-
-|  | Variable | Dimension |  |
-|-------|--------|---------|
-| $$R$$ | Résistance | (m$$^2$$.K)/W | s'additionne en série |
-| $$U$$ | Coefficient de transfert surfacique | W/(m$$^2$$.K) |  |
-| $$D$$ | Coefficient de déperdition | W/K | s'additionne en parallèle |
+Jupyter

@@ -192,7 +192,7 @@
   
   
   <li>
-      <a href="#">Accueil</a>
+      <a href="#">Description du projet</a>
       <ul>
           
           
@@ -211,37 +211,14 @@
           
           
           
-          <li><a href="etatdelart.html">Bases théoriques et état de l'art</a></li>
-          
-          
-          
-          
-      </ul>
-   </li>
-     
-      
-  
-  <li>
-      <a href="#">Méthodologie</a>
-      <ul>
-          
-          
-          
-          <li><a href="objectifs.html">Objectifs scientifiques</a></li>
+          <li><a href="questionnements.html">Questionnements scientifiques</a></li>
           
           
           
           
           
           
-          <li><a href="casdetude.html">Cas d'étude</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a href="outils.html">Outils numériques</a></li>
+          <li><a href="outils.html">Cas d'étude et outils numériques</a></li>
           
           
           
@@ -254,6 +231,13 @@
   <li>
       <a href="#">Résultats</a>
       <ul>
+          
+          
+          
+          <li><a href="etatdelart.html">Bases théoriques et état de l'art</a></li>
+          
+          
+          
           
           
           
@@ -380,9 +364,9 @@ d’air, au transfert par l’enveloppe, par un système de chauffage peu effica
 diagnostic détaillé, on peut recourir aux méthodes inverses qui permettraient de construire une
 représentation réaliste d’un bâtiment sur la base de mesures in situ.</p>
 
-<h2 id="positionnement-et-dfis-scientifiques">Positionnement et défis scientifiques</h2>
+<h2 id="objectifs">Objectifs</h2>
 
-<p>Le but du projet BAYREB est d’utiliser des mesures réalisées dans un bâtiment pour acquérir la connaissance justifiant du choix de la solution de réhabilitation qui lui sera la plus adaptée. La caractérisation des propriétés de l’enveloppe via une instrumentation in situ est déjà proposée par les méthodes de co-heating et celles qui en sont inspirées (QUB, ISABELE). Ces méthodes ne sont cependant par applicables au diagnostic pré-rénovation car :</p>
+<p>Le but du projet BAYREB est d’utiliser des mesures réalisées dans un bâtiment (température, humidité, <script type="math/tex">CO_2</script>) pour acquérir la connaissance justifiant du choix de la solution de réhabilitation qui lui sera la plus adaptée. La caractérisation des propriétés de l’enveloppe via une instrumentation in situ est déjà proposée par les méthodes de co-heating et celles qui en sont inspirées (QUB, ISABELE). Ces méthodes ne sont cependant par applicables au diagnostic pré-rénovation car :</p>
 
 <ul>
   <li>Leur protocole expérimental n’est pas réalisable dans des locaux occupés.</li>
@@ -391,27 +375,11 @@ représentation réaliste d’un bâtiment sur la base de mesures in situ.</p>
 
 <p>Le défi du projet BAYREB est donc double. Premièrement, le comportement du bâtiment doit être suivi dans ses conditions d’utilisation normales, sans conditions aux limites imposées, et mesurées avec des capteurs de type et de précision limitées. Cela entraîne potentiellement de fortes incertitudes de mesure et des jeux de données moins riches. Deuxièmement, cette mesure doit permettre de <strong>désagréger</strong> les différentes sources de déperditions thermiques dans un modèle du bâtiment, afin de permettre la décision de rénovation. Le modèle calibré par le problème inverse de caractérisation in situ doit donc obéir à un niveau de détail suffisant.</p>
 
-<h2 id="mthodologie-et-tapes-du-projet">Méthodologie et étapes du projet</h2>
+<h2 id="positionnement">Positionnement</h2>
 
-<p>Le projet BAYREB repose sur le choix spécifique du cadre des statistiques Bayésiennes pour la caractérisation des propriétés du bâti sur la base de mesures (inférence). La particularité de l’inférence Bayésienne par rapport aux autres techniques inverses est qu’elle réalise intrinsèquement une propagation “inverse” d’incertitude : les données manquantes, les erreurs de mesure et les hypothèses simplificatrices de modélisation se répercutent directement sur l’estimation des propriétés recherchées et leurs intervalles de confiance.</p>
+<p>En raison des difficultés énoncées ci-dessus, le projet BAYREB met l’accent sur la prise en compte de toutes les possibles sources d’erreur dans la résolution du problème inverse : erreurs de mesure, erreurs d’hypothèse des modèles et de résolution du problème direct. Le projet repose sur le choix spécifique du cadre des statistiques Bayésiennes pour traduire toutes ces incertitudes dans les estimations de paramètres.</p>
 
-<p>Si la méthode est maîtrisée, les intervalles de confiance d’un paramètre traduisent alors la meilleure connaissance du bâtiment que la mesure peut en offrir. Une propriété ne sera pas déclarée correctement estimée si les mesures sont insuffisantes pour cela.</p>
-
-<h3 id="identifiabilit-des-modles-de-btiments">Identifiabilité des modèles de bâtiments</h3>
-
-<p>En raison des défis énoncés plus haut, le projet met particulièrement l’accent sur l’<strong>identifiabilité</strong> des paramètres, la <strong>richesse d’information</strong> contenue dans la mesure</p>
-
-<p>### Identification en temps réel</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>### Réseau de capteurs sans fils</p>
-
-<p>quelle mesure ?</p>
-
-<p>### Prise en compte de l’occupant</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Si la méthode est maîtrisée, les intervalles de confiance d’un paramètre traduisent alors la meilleure connaissance du bâtiment que la mesure peut en offrir : une propriété ne sera pas déclarée correctement estimée si les mesures sont insuffisantes pour cela.</p>
 
 
     <div class="tags">
@@ -437,7 +405,7 @@ représentation réaliste d’un bâtiment sur la base de mesures in situ.</p>
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 LOCIE. All rights reserved. <br />
- Site last generated: Jul 12, 2017 <br />
+ Site last generated: Jul 13, 2017 <br />
 <p><img src="images/ANR.png" alt="ANR" height="70"/></p>
                 </div>
             </div>

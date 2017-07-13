@@ -14,12 +14,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/casdetude.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/etatdelart.html</loc>
   </url>
   
@@ -52,19 +46,13 @@
   
   
   <url>
-    <loc>http://localhost:4000/objectifs.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/occupants.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/casdetude.html</loc>
+    <loc>http://localhost:4000/outils.html</loc>
   </url>
   
   
@@ -79,6 +67,12 @@
   
   <url>
     <loc>http://localhost:4000/publications.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/questionnements.html</loc>
   </url>
   
   
