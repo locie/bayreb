@@ -8,12 +8,6 @@
   
   
   <url>
-    <loc>http://localhost:4000/apropos.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/etatdelart.html</loc>
   </url>
   
@@ -40,27 +34,27 @@
   
   
   <url>
+    <loc>http://localhost:4000/instrumentation.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/methodologie.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/mydoc_navtabs.html</loc>
   </url>
   
   
   
-  <url>
-    <loc>http://localhost:4000/occupants.html</loc>
-  </url>
-  
   
   
   <url>
-    <loc>http://localhost:4000/outils.html</loc>
-  </url>
-  
-  
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/projet.html</loc>
+    <loc>http://localhost:4000/objectifs.html</loc>
   </url>
   
   
@@ -72,24 +66,18 @@
   
   
   <url>
-    <loc>http://localhost:4000/questionnements.html</loc>
-  </url>
-  
-  
-  
-  <url>
     <loc>http://localhost:4000/rapports.html</loc>
   </url>
   
   
   
+  
+  
+  
+  
   <url>
-    <loc>http://localhost:4000/recapitulatif.html</loc>
+    <loc>http://localhost:4000/stochastique.html</loc>
   </url>
-  
-  
-  
-  
   
   
   
@@ -97,12 +85,6 @@
   
   <url>
     <loc>http://localhost:4000/tempsreel.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/thermique_analogie.html</loc>
   </url>
   
   

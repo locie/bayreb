@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Sous-titre">
-<meta name="keywords" content="tag1tag2,  bayreb, anr">
-<title>Récapitulatif | BAYREB</title>
+<meta name="description" content="Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation">
+<meta name="keywords" content=" bayreb, anr">
+<title>Contexte et objectifs du projet BAYREB | BAYREB</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -142,7 +142,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Récapitulatif page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Contexte et objectifs du projet BAYREB page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
 
 </li>
 
@@ -160,7 +160,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Récapitulatif">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Contexte et objectifs du projet BAYREB">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -204,21 +204,14 @@
           
           
           
-          <li><a href="projet.html">Présentation du projet</a></li>
+          <li class="active"><a href="objectifs.html">Contexte et objectifs du projet</a></li>
           
           
           
           
           
           
-          <li><a href="questionnements.html">Questionnements scientifiques</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a href="outils.html">Cas d'étude et outils numériques</a></li>
+          <li><a href="methodologie.html">Méthodologie</a></li>
           
           
           
@@ -248,6 +241,13 @@
           
           
           
+          <li><a href="stochastique.html">Modélisation stochastique</a></li>
+          
+          
+          
+          
+          
+          
           <li><a href="tempsreel.html">Caractérisation en temps réel</a></li>
           
           
@@ -255,14 +255,7 @@
           
           
           
-          <li><a href="occupants.html">Prise en compte des occupants</a></li>
-          
-          
-          
-          
-          
-          
-          <li class="active"><a href="recapitulatif.html">Récapitulatif</a></li>
+          <li><a href="instrumentation.html">Réseau de capteurs sans fils</a></li>
           
           
           
@@ -312,7 +305,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Récapitulatif</h1>
+   <h1 class="post-title-main">Contexte et objectifs du projet BAYREB</h1>
 </div>
 
 
@@ -320,7 +313,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Sous-titre</div>
+    <div class="summary">Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation</div>
    
 
     
@@ -351,65 +344,38 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="section-1">Section 1</h2>
+  <h2 id="enjeux">Enjeux</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Le plus important gisement d’économies d’énergies dans le secteur du bâtiment se trouve dans
+la rénovation de l’existant. En conséquence, de nombreux travaux sont dédiés à la recherche de
+moyens d’encourager la décision. Une garantie de performance après rénovation peut constituer
+une incitation intéressante, mais est difficile à réaliser en pratique. Une condition nécessaire
+pour une rénovation rentable est de proposer des solutions adaptées à chaque cas. Cela
+nécessite la réalisation d’un diagnostic préalable, permettant d’identifier les faiblesses de chaque
+bâtiment : par exemple en quantifiant la part de consommation d’énergie due aux infiltrations
+d’air, au transfert par l’enveloppe, par un système de chauffage peu efficace… Pour un tel
+diagnostic détaillé, on peut recourir aux méthodes inverses qui permettraient de construire une
+représentation réaliste d’un bâtiment sur la base de mesures in situ.</p>
+
+<h2 id="objectifs">Objectifs</h2>
+
+<p>Le but du projet BAYREB est d’utiliser des mesures réalisées dans un bâtiment (température, humidité, <script type="math/tex">CO_2</script>) pour acquérir la connaissance justifiant du choix de la solution de réhabilitation qui lui sera la plus adaptée. La caractérisation des propriétés de l’enveloppe via une instrumentation in situ est déjà proposée par les méthodes de co-heating et celles qui en sont inspirées (QUB, ISABELE). Ces méthodes ne sont cependant par applicables au diagnostic pré-rénovation car :</p>
 
 <ul>
-  <li><a href="https://www.univ-smb.fr/">Université Savoie Mont-Blanc</a></li>
+  <li>Leur protocole expérimental n’est pas réalisable dans des locaux occupés.</li>
+  <li>Leurs résultats sont trop agrégés pour évaluer les effets de différentes solutions de rénovation.</li>
 </ul>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Le défi du projet BAYREB est donc double. Premièrement, le comportement du bâtiment doit être suivi dans ses conditions d’utilisation normales, sans conditions aux limites imposées, et mesurées avec des capteurs de type et de précision limitées. Cela entraîne potentiellement de fortes incertitudes de mesure et des jeux de données moins riches. Deuxièmement, cette mesure doit permettre de <strong>désagréger</strong> les différentes sources de déperditions thermiques dans un modèle du bâtiment, afin de permettre la décision de rénovation. Le modèle calibré par le problème inverse de caractérisation in situ doit donc obéir à un niveau de détail suffisant.</p>
 
-<h2 id="section-2">Section 2</h2>
+<h2 id="positionnement">Positionnement</h2>
 
-<p>Avec ce modèle de site on peut inclure des équations</p>
+<p>En raison des défis énoncés ci-dessus, le projet BAYREB met l’accent sur la prise en compte de toutes les possibles sources d’erreur dans la résolution du problème inverse : erreurs de mesure, erreurs d’hypothèse des modèles et de résolution du problème direct. Le projet repose sur le choix spécifique du cadre des statistiques Bayésiennes pour traduire toutes ces incertitudes dans les estimations de paramètres.</p>
 
-<script type="math/tex; mode=display">\varphi = U . \Delta T = \dfrac{1}{R} . \Delta T</script>
-
-<p>Et des tableaux</p>
-
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> Variable</th>
-      <th>Dimension</th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><script type="math/tex">R</script></td>
-      <td>Résistance</td>
-      <td>(m<script type="math/tex">^2</script>.K)/W</td>
-      <td>s’additionne en série</td>
-    </tr>
-    <tr>
-      <td><script type="math/tex">U</script></td>
-      <td>Coefficient de transfert surfacique</td>
-      <td>W/(m<script type="math/tex">^2</script>.K)</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><script type="math/tex">D</script></td>
-      <td>Coefficient de déperdition</td>
-      <td>W/K</td>
-      <td>s’additionne en parallèle</td>
-    </tr>
-  </tbody>
-</table>
+<p>Si la méthode est maîtrisée, les intervalles de confiance d’un paramètre traduisent alors la meilleure connaissance du bâtiment que la mesure peut en offrir : une propriété ne sera pas déclarée correctement estimée si les mesures sont insuffisantes pour cela.</p>
 
 
     <div class="tags">
-        
-        <b>Tags: </b>
-        
-        
-        
-        
-        
-        
         
     </div>
 
@@ -424,7 +390,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 LOCIE. All rights reserved. <br />
- Site last generated: Jul 13, 2017 <br />
+ Site last generated: Nov 30, 2017 <br />
 <p><img src="images/ANR.png" alt="ANR" height="70"/></p>
                 </div>
             </div>

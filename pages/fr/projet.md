@@ -1,9 +1,8 @@
 ---
-title: "Présentation du projet BAYREB"
+title: "Contexte et objectifs du projet BAYREB"
 summary: "Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation"
-permalink: projet.html
+permalink: objectifs.html
 keywords: bayreb, anr
-tags: [tag1, tag2]
 sidebar: sidebar_fr
 topnav: topnav_fr
 toc: true
@@ -33,6 +32,6 @@ Le défi du projet BAYREB est donc double. Premièrement, le comportement du bâ
 
 ## Positionnement
 
-En raison des difficultés énoncées ci-dessus, le projet BAYREB met l'accent sur la prise en compte de toutes les possibles sources d'erreur dans la résolution du problème inverse : erreurs de mesure, erreurs d'hypothèse des modèles et de résolution du problème direct. Le projet repose sur le choix spécifique du cadre des statistiques Bayésiennes pour traduire toutes ces incertitudes dans les estimations de paramètres.
+En raison des défis énoncés ci-dessus, le projet BAYREB met l'accent sur la prise en compte de toutes les possibles sources d'erreur dans la résolution du problème inverse : erreurs de mesure, erreurs d'hypothèse des modèles et de résolution du problème direct. Le projet repose sur le choix spécifique du cadre des statistiques Bayésiennes pour traduire toutes ces incertitudes dans les estimations de paramètres.
 
 Si la méthode est maîtrisée, les intervalles de confiance d'un paramètre traduisent alors la meilleure connaissance du bâtiment que la mesure peut en offrir : une propriété ne sera pas déclarée correctement estimée si les mesures sont insuffisantes pour cela.

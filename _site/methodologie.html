@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Sous-titre">
-<meta name="keywords" content="tag1tag2,  bayreb, anr">
-<title>Prise en compte des occupants | BAYREB</title>
+<meta name="description" content="Les étapes du travail réalisé pour répondre aux objectifs du projet">
+<meta name="keywords" content=" bayreb, anr">
+<title>Méthodologie | BAYREB</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -142,7 +142,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Prise en compte des occupants page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Méthodologie page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
 
 </li>
 
@@ -160,7 +160,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Prise en compte des occupants">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Méthodologie">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -204,21 +204,14 @@
           
           
           
-          <li><a href="projet.html">Présentation du projet</a></li>
+          <li><a href="objectifs.html">Contexte et objectifs du projet</a></li>
           
           
           
           
           
           
-          <li><a href="questionnements.html">Questionnements scientifiques</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a href="outils.html">Cas d'étude et outils numériques</a></li>
+          <li class="active"><a href="methodologie.html">Méthodologie</a></li>
           
           
           
@@ -248,6 +241,13 @@
           
           
           
+          <li><a href="stochastique.html">Modélisation stochastique</a></li>
+          
+          
+          
+          
+          
+          
           <li><a href="tempsreel.html">Caractérisation en temps réel</a></li>
           
           
@@ -255,14 +255,7 @@
           
           
           
-          <li class="active"><a href="occupants.html">Prise en compte des occupants</a></li>
-          
-          
-          
-          
-          
-          
-          <li><a href="recapitulatif.html">Récapitulatif</a></li>
+          <li><a href="instrumentation.html">Réseau de capteurs sans fils</a></li>
           
           
           
@@ -312,7 +305,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Prise en compte des occupants</h1>
+   <h1 class="post-title-main">Méthodologie</h1>
 </div>
 
 
@@ -320,7 +313,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Sous-titre</div>
+    <div class="summary">Les étapes du travail réalisé pour répondre aux objectifs du projet</div>
    
 
     
@@ -351,65 +344,38 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="section-1">Section 1</h2>
+  <p>Afin de remplir ses <a href="projet.html">objectifs</a>, le projet doit aborder les verrous scientifiques et techniques suivants. Les résultats seront présentés sur ce site web selon la même structure.</p>
+
+<h2 id="identifiabilit-des-modles-de-btiments">Identifiabilité des modèles de bâtiments</h2>
+
+<p>Le projet met particulièrement l’accent sur l’<strong>identifiabilité</strong> des paramètres, la <strong>richesse d’information</strong> contenue dans la mesure.</p>
+
+<p>L’identifiabilité est la faisabilité de l’estimation d’un paramètre de modèle, sur la base d’une série de mesures données. Une condition nécessaire pour l’identifiabilité est que la structure même du modèle permette cette estimation : on parle d’identifiabilité structurelle. Ensuite, il est nécessaire que les mesures servant à l’apprentissage soient assez riches et informatives : on parle d’identifiabilité pratique.</p>
+
+<p>Le projet BAYREB a besoin de structures de modèles permettant la désagrégation des consommations d’un bâtiment en vue de sa réhabilitation, mais qui doivent être suffisamment simplifiés pour permettre l’identifiabilité de leurs paramètres. Concilier ces deux exigences contradictoires est le principal défi du projet.</p>
+
+<p><a href="identifiabilite.html">Lien vers la page des résultats</a></p>
+
+<h2 id="modlisation-stochastique">Modélisation stochastique</h2>
+
+<p>Dans la plupart des cas, les problèmes d’estimation de paramètres sont résolus sous l’hypothèse d’un modèle non biaisé, c’est-à-dire qu’on suppose capable de reproduire fidèlement la réalité. Cette hypothèse est toujours fausse, particulièrement pour les modèles RC très simples utilisés par les inverseurs. La prise en compte des (nombreuses) erreurs et approximations de modélisation est indispensable à la légitimité des modèles calibrés et à l’interprétabilité de leurs paramètres. Un des moyens possibles pour inclure ces erreurs dans la formulation du problème est l’utilisation d’équations différentielles stochastiques, résolues via un filtre de Kalman et l’algorithme d’inférence Bayésienne MCMC.</p>
+
+<p><a href="stochastique.html">Lien vers la page des résultats</a></p>
+
+<h2 id="caractrisation-en-temps-rel">Caractérisation en temps réel</h2>
+
+<p>L’estimation de paramètres est une opération généralement “hors-ligne” : un modèle est calibré sur la base d’une série complète de données servant d’apprentissage. En conséquence, il peut être difficile d’identifier précisément quelle partie de la séquence expérimentale a apporté la plus grande richesse d’information au modèle.</p>
+
+<p>Une alternative à l’estimation hors-ligne est la caractérisation en temps réel : chaque paramètre est décrit par une fonction de probabilité qui est mise à jour à chaque fois qu’un nouveau point de mesure est disponible. Cela permet de tirer les enseignements de l’expérience pendant qu’elle a lieu, donc de constater précisément quels phénomènes influent sur les estimateurs. Par ce moyen, on peut également imaginer interrompre la mesure dès que l’apprentissage est jugé satisfaisant.</p>
+
+<p><a href="tempsreel.html">Lien vers la page des résultats</a></p>
+
+<h2 id="rseau-de-capteurs-sans-fils">Réseau de capteurs sans fils</h2>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<ul>
-  <li><a href="https://www.univ-smb.fr/">Université Savoie Mont-Blanc</a></li>
-</ul>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h2 id="section-2">Section 2</h2>
-
-<p>Avec ce modèle de site on peut inclure des équations</p>
-
-<script type="math/tex; mode=display">\varphi = U . \Delta T = \dfrac{1}{R} . \Delta T</script>
-
-<p>Et des tableaux</p>
-
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> Variable</th>
-      <th>Dimension</th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><script type="math/tex">R</script></td>
-      <td>Résistance</td>
-      <td>(m<script type="math/tex">^2</script>.K)/W</td>
-      <td>s’additionne en série</td>
-    </tr>
-    <tr>
-      <td><script type="math/tex">U</script></td>
-      <td>Coefficient de transfert surfacique</td>
-      <td>W/(m<script type="math/tex">^2</script>.K)</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><script type="math/tex">D</script></td>
-      <td>Coefficient de déperdition</td>
-      <td>W/K</td>
-      <td>s’additionne en parallèle</td>
-    </tr>
-  </tbody>
-</table>
 
 
     <div class="tags">
-        
-        <b>Tags: </b>
-        
-        
-        
-        
-        
-        
         
     </div>
 
@@ -424,7 +390,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 LOCIE. All rights reserved. <br />
- Site last generated: Jul 13, 2017 <br />
+ Site last generated: Nov 30, 2017 <br />
 <p><img src="images/ANR.png" alt="ANR" height="70"/></p>
                 </div>
             </div>

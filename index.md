@@ -3,7 +3,6 @@ title: "Projet ANR BAYREB"
 summary: "Approche Bayésienne pour l'audit énergétique et la réhabilitation des bâtiments"
 permalink: index.html
 keywords: bayreb, diagnostic
-tags: [index, sommaire]
 sidebar: sidebar_fr
 topnav: topnav_fr
 toc: true
@@ -18,4 +17,4 @@ Le projet est mené en coopération entre les laboratoires [LOCIE](http://www.po
 * Aurélie Foucquier (CEA LITEN)
 * Gilles Fraisse (LOCIE)
 
-Ce site web contient pour l'instant une [présentation du projet](projet.html), ses principaux [questionnements scientifiques](questionnements.html) et les [outils](outils.html) choisis pour y répondre. Les résultats du projet y seront ajoutés au fur et à mesure de son avancement.
+Ce site web contient pour l'instant une [présentation du contexte et des objectifs](objectifs.html) du projet, ainsi que de sa [méthodologie](methodologie.html). Les résultats du projet y seront ajoutés au fur et à mesure de son avancement.

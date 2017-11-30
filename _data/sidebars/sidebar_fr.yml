@@ -14,16 +14,12 @@ entries:
       url: /index.html
       output: web, pdf
 
-    - title: Présentation du projet
-      url: /projet.html
+    - title: Contexte et objectifs du projet
+      url: /objectifs.html
       output: web, pdf
 
-    - title: Questionnements scientifiques
-      url: /questionnements.html
-      output: web, pdf
-
-    - title: Cas d'étude et outils numériques
-      url: /outils.html
+    - title: Méthodologie
+      url: /methodologie.html
       output: web, pdf
 
   - title: Résultats
@@ -38,16 +34,16 @@ entries:
       url: /identifiabilite.html
       output: web, pdf
 
+    - title: Modélisation stochastique
+      url: /stochastique.html
+      output: web, pdf
+
     - title: Caractérisation en temps réel
       url: /tempsreel.html
       output: web, pdf
 
-    - title: Prise en compte des occupants
-      url: /occupants.html
-      output: web, pdf
-
-    - title: Récapitulatif
-      url: /recapitulatif.html
+    - title: Réseau de capteurs sans fils
+      url: /instrumentation.html
       output: web, pdf
 
   - title: Production scientifique
