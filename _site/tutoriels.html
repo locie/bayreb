@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation">
+<meta name="description" content="Exemples de code pour appliquer les méthodes du projet">
 <meta name="keywords" content=" bayreb, anr">
-<title>Contexte et objectifs du projet BAYREB | BAYREB</title>
+<title>Tutoriels | BAYREB</title>
 <link rel="stylesheet" href="css/syntax.css">
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -142,7 +142,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Contexte et objectifs du projet BAYREB page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:simon.rouchier@univ-smb.fr?subject=Bayesian building energy analysis feedback&body=I have some feedback about the Tutoriels page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> E-mail</a>
 
 </li>
 
@@ -160,7 +160,7 @@
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
                                 dataSource: 'search.json',
-                                searchResultTemplate: '<li><a href="{url}" title="Contexte et objectifs du projet BAYREB">{title}</a></li>',
+                                searchResultTemplate: '<li><a href="{url}" title="Tutoriels">{title}</a></li>',
                     noResultsText: 'No results found.',
                             limit: 10,
                             fuzzy: true,
@@ -204,7 +204,7 @@
           
           
           
-          <li class="active"><a href="objectifs.html">Contexte et objectifs du projet</a></li>
+          <li><a href="objectifs.html">Contexte et objectifs du projet</a></li>
           
           
           
@@ -271,7 +271,7 @@
           
           
           
-          <li><a href="tutoriels.html">Tutoriels</a></li>
+          <li class="active"><a href="tutoriels.html">Tutoriels</a></li>
           
           
           
@@ -298,7 +298,7 @@
         <!-- Content Column -->
         <div class="col-md-9" id="tg-sb-content">
             <div class="post-header">
-   <h1 class="post-title-main">Contexte et objectifs du projet BAYREB</h1>
+   <h1 class="post-title-main">Tutoriels</h1>
 </div>
 
 
@@ -306,7 +306,7 @@
 <div class="post-content">
 
    
-    <div class="summary">Le projet ANR BAYREB vise à proposer une méthode de diagnostic énergétique des bâtiments avant leur réhabilitation</div>
+    <div class="summary">Exemples de code pour appliquer les méthodes du projet</div>
    
 
     
@@ -337,35 +337,34 @@ $('#toc').on('click', 'a', function() {
 
     
 
-  <h2 id="enjeux">Enjeux</h2>
+  <p>Afin de rendre accessibles et reproductibles les avancées du projet BAYREB, des extraits de code Python utilisés dans chacune de ses parties sont fournies ici sous la forme de notebooks Jupyter. Vous pouvez les visualiser en ligne, ou en télécharger le code à partir du <a href="https://github.com/locie/bayreb">dépôt Github</a> lié à cette page.</p>
 
-<p>Le plus important gisement d’économies d’énergies dans le secteur du bâtiment se trouve dans
-la rénovation de l’existant. En conséquence, de nombreux travaux sont dédiés à la recherche de
-moyens d’encourager la décision. Une garantie de performance après rénovation peut constituer
-une incitation intéressante, mais est difficile à réaliser en pratique. Une condition nécessaire
-pour une rénovation rentable est de proposer des solutions adaptées à chaque cas. Cela
-nécessite la réalisation d’un diagnostic préalable, permettant d’identifier les faiblesses de chaque
-bâtiment : par exemple en quantifiant la part de consommation d’énergie due aux infiltrations
-d’air, au transfert par l’enveloppe, par un système de chauffage peu efficace… Pour un tel
-diagnostic détaillé, on peut recourir aux méthodes inverses qui permettraient de construire une
-représentation réaliste d’un bâtiment sur la base de mesures in situ.</p>
+<h2 id="introduction-aux-problmes-inverses-en-transferts-thermiques">Introduction aux problèmes inverses en transferts thermiques</h2>
 
-<h2 id="objectifs">Objectifs</h2>
-
-<p>Le but du projet BAYREB est d’utiliser des mesures réalisées dans un bâtiment (température, humidité, <script type="math/tex">CO_2</script>) pour acquérir la connaissance justifiant du choix de la solution de réhabilitation qui lui sera la plus adaptée. La caractérisation des propriétés de l’enveloppe via une instrumentation in situ est déjà proposée par les méthodes de co-heating et celles qui en sont inspirées (QUB, ISABELE). Ces méthodes ne sont cependant par applicables au diagnostic pré-rénovation car :</p>
+<p>Trois tutoriels qui ont été réalisés en marge du projet BAYREB, en guise d’introduction aux problèmes inverses.</p>
 
 <ul>
-  <li>Leur protocole expérimental n’est pas réalisable dans des locaux occupés.</li>
-  <li>Leurs résultats sont trop agrégés pour évaluer les effets de différentes solutions de rénovation.</li>
+  <li><a href="https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/01_HeatConductivity/Notebook_HeatConductivity.ipynb">Identification de la conductivité thermique d’un mur par inférence Bayésienne</a>. Cet exercice offre une introduction à la librairie PyMC qui est beaucoup utilisée dans le reste du projet.</li>
+  <li><a href="https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/02_HeatFlow/Notebook_HeatFlow.ipynb">Conduction thermique inverse: reconstruire un flux de chaleur à partir d’une mesure de température</a>. C’est un problème standard d’inversion, où on cherche à reconstruire une fonction évoluant dans le temps dans un problème inverse mal posé.</li>
+  <li><a href="https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/03_MoistureTransfer/Notebook_MoistureTransfer.ipynb">Transferts d’humidité: identifier les propriétés hygriques d’une éprouvette en mesurant sa masse et son humidité relative</a></li>
 </ul>
 
-<p>Le défi du projet BAYREB est donc double. Premièrement, le comportement du bâtiment doit être suivi dans ses conditions d’utilisation normales, sans conditions aux limites imposées, et mesurées avec des capteurs de type et de précision limitées. Cela entraîne potentiellement de fortes incertitudes de mesure et des jeux de données moins riches. Deuxièmement, cette mesure doit permettre de <strong>désagréger</strong> les différentes sources de déperditions thermiques dans un modèle du bâtiment, afin de permettre la décision de rénovation. Le modèle calibré par le problème inverse de caractérisation in situ doit donc obéir à un niveau de détail suffisant.</p>
+<h2 id="identification-dun-modle-2r2c-dterministe">Identification d’un modèle 2R2C déterministe</h2>
 
-<h2 id="positionnement">Positionnement</h2>
+<p>Deux tutoriels qui viennent en support de <a href="https://www.sciencedirect.com/science/article/pii/S0378778817317942">l’article <em>review</em> publié dans Energy and Buildings</a></p>
 
-<p>En raison des défis énoncés ci-dessus, le projet BAYREB met l’accent sur la prise en compte de toutes les possibles sources d’erreur dans la résolution du problème inverse : erreurs de mesure, erreurs d’hypothèse des modèles et de résolution du problème direct. Le projet repose sur le choix spécifique du cadre des statistiques Bayésiennes pour traduire toutes ces incertitudes dans les estimations de paramètres.</p>
+<ul>
+  <li><a href="https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/04_2R2C_LSE/2R2C%20model%20parameter%20estimation.ipynb">Least-square estimation</a>: exemple très simple montrant comment identifier un modèle RC avec des données de mesure en bâtiment.</li>
+  <li><a href="https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/04_2R2C_LSE/2R2C%20model%20sensitivity%20and%20identifiability.ipynb">Sensitivity analysis and likelihood-based confidence regions</a>: quelques exemples de l’estimation de l’identifiabilité pratique des modèles RC.</li>
+</ul>
 
-<p>Si la méthode est maîtrisée, les intervalles de confiance d’un paramètre traduisent alors la meilleure connaissance du bâtiment que la mesure peut en offrir : une propriété ne sera pas déclarée correctement estimée si les mesures sont insuffisantes pour cela.</p>
+<h2 id="identification-dun-modle-2r2c-stochastique-avec-mcmc-et-un-filtre-de-kalman">Identification d’un modèle 2R2C stochastique avec MCMC et un filtre de Kalman</h2>
+
+<p>Cette section sera bientôt renseignée.</p>
+
+<h2 id="estimation-de-paramtres-en-temps-rel">Estimation de paramètres en temps réel</h2>
+
+<p>Cette section sera bientôt renseignée.</p>
 
 
     <div class="tags">

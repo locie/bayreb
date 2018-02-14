@@ -50,18 +50,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Least Square Estimation
-      url: /tuto1_fr.html
-      output: web, pdf
-
-    - title:  Kalman filter and Maximum Likelihood Estimation
-      url: /tuto2_fr.html
-      output: web, pdf
-
-    - title:  Sensitivity analysis
-      url: /tuto3_fr.html
-      output: web, pdf
-
-    - title:  Likelihood profiles
-      url: /tuto4_fr.html
+    - title: Tutoriels
+      url: /tutoriels.html
       output: web, pdf

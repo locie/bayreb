@@ -18,3 +18,7 @@ L'étude bibliographique par laquelle le projet BAYREB a commencé est disponibl
   * Généralités sur les problèmes inverses
   * L'inférence Bayésienne
   * Identifiabilité, sélection de modèles et plans d'expérience
+
+Cet état de l'art a ensuite donné lieu à un article review publié dans *Energy and Buildings*:
+
+[Rouchier S. (2018) Solving inverse problems in building physics: an overview of guidelines for a careful and optimal use of data. Energy and Buildings, DOI:10.1016/j.enbuild.2018.02.009](https://www.sciencedirect.com/science/article/pii/S0378778817317942)
