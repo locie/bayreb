@@ -6,67 +6,54 @@ entries:
   version:
   folders:
 
-  - title: Accueil
+  - title: Description du projet
     output: web, pdf
     folderitems:
 
     - title: Page d'accueil
       url: /index.html
       output: web, pdf
-      type: homepage
 
-    - title: Présentation du projet
-      url: /projet.html
+    - title: Contexte et objectifs du projet
+      url: /objectifs.html
       output: web, pdf
+
+    - title: Méthodologie
+      url: /methodologie.html
+      output: web, pdf
+
+  - title: Résultats et publications
+    output: web, pdf
+    folderitems:
 
     - title: Bases théoriques et état de l'art
       url: /etatdelart.html
       output: web, pdf
 
-  - title: Méthodologie
-    output: web, pdf
-    folderitems:
-
-    - title: Objectifs scientifiques
-      url: /objectifs.html
-      output: web, pdf
-
-    - title: Cas d'étude
-      url: /casdetude.html
-      output: web, pdf
-
-    - title: Outils numériques
-      url: /outils.html
-      output: web, pdf
-
-  - title: Résultats
-    output: web, pdf
-    folderitems:
-
     - title: Identifiabilité des modèles
       url: /identifiabilite.html
+      output: web, pdf
+
+    - title: Modélisation stochastique
+      url: /stochastique.html
       output: web, pdf
 
     - title: Caractérisation en temps réel
       url: /tempsreel.html
       output: web, pdf
 
-    - title: Prise en compte des occupants
-      url: /occupants.html
+    - title: Réseau de capteurs sans fils
+      url: /instrumentation.html
       output: web, pdf
 
-    - title: Récapitulatif
-      url: /recapitulatif.html
-      output: web, pdf
-
-  - title: Production scientifique
+  - title: Tutoriels
     output: web, pdf
     folderitems:
 
-    - title: Rapports
-      url: /rapports.html
+    - title: Tutoriel 1
+      url: /tuto1_fr.html
       output: web, pdf
 
-    - title: Publications et présentations
-      url: /publications.html
+    - title: Tutoriel 2
+      url: /tuto2_.html
       output: web, pdf

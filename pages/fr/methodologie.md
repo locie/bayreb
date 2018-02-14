@@ -36,4 +36,6 @@ Une alternative à l'estimation hors-ligne est la caractérisation en temps rée
 
 ## Réseau de capteurs sans fils
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Des mesures in situ sont nécessaires pour atteindre les objectifs du projet BAYREB : température, humidité, pression, $$CO_2$$, etc. Effectuer ces mesures en logements habités signifie que l’instrumentation doit être réduite et non intrusive : le projet va utiliser un réseau de capteurs sans fils pour une mesure continue de l’ambiance.
+
+[Lien vers la page des résultats](instrumentation.html)
