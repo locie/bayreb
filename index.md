@@ -18,6 +18,8 @@ Voici un aperçu du contenu de ce site web :
 * Les **résultats et publications** sont présentées en plusieurs pages, suivant la structure du projet;
 * Les [**tutoriels**](tutoriels.html) sont une série de *notebooks* Jupyter permettant à chacun de reproduire les méthodes appliquées dans le projet.
 
-Liste des publications issues du projet BAYREB (en date du 14.02.18):
+Liste des publications issues du projet BAYREB (en date du 21.03.18):
 
-[Rouchier S. (2018) Solving inverse problems in building physics: an overview of guidelines for a careful and optimal use of data. Energy and Buildings, DOI:10.1016/j.enbuild.2018.02.009](https://www.sciencedirect.com/science/article/pii/S0378778817317942)
+[Rouchier S. (2018) Solving inverse problems in building physics: an overview of guidelines for a careful and optimal use of data. Energy and Buildings, vol. 166, p. 178-195](https://www.sciencedirect.com/science/article/pii/S0378778817317942)
+
+[Rouchier S, Rabouille M, Oberlé P (2018) Calibration of simplified building energy models for parameter estimation and forecasting: stochastic versus deterministic modelling. Building and Environment, vol. 134, p. 181-190](https://www.sciencedirect.com/science/article/pii/S036013231830115X)
