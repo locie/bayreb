@@ -28,7 +28,9 @@ Deux tutoriels qui viennent en support de [l'article *review* publié dans Energ
 
 ## Identification d'un modèle 2R2C stochastique avec MCMC et un filtre de Kalman
 
-Cette section sera bientôt renseignée.
+Ce tutoriel montre le code utilisé pour illustrer l'importance de l'erreur de modélisation dans l'estimation de paramètres. L'article qui décrit la méthodologie en détail est [téléchargeable ici](https://hal.archives-ouvertes.fr/hal-01739625).
+
+* [RC model calibration: stochastic versus deterministic modelling](https://nbviewer.jupyter.org/github/locie/bayreb/blob/master/Notebooks/05_2R2C_stochastic/Stochastic%20RC%20model.ipynb)
 
 ## Estimation de paramètres en temps réel
 
