@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About the project
 ---
 
-Some information about you!
+The BAYREB project was funded by the French National Research Agency (ANR) from 2016 to 2020 under the grant number ANR-15-CE22-003.
 
-### More Information
+<img src="../assets/img/anr.png" style="width: 150px;">
 
-A place to include any other types of information that you'd like to include about yourself.
+It was coordinated by [Simon Rouchier](http://simonrouchier.org) at the LOCIE laboratory of [Université Savoie Mont Blanc](https://www.univ-smb.fr).
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<img src="../assets/img/locie.png" style="width: 100px;"> <img src="../assets/img/usmb.jpg" style="width: 200px;">
