@@ -9,7 +9,8 @@ The BAYREB project belongs to the general field of the energy refurbishment of b
 * Using the acquired knowledge of the true state of the building, and its uncertainty, as a basis for the elaboration of optimal renovation solutions.
 
 
-All results of the project have been summarised in [a single report available here](/docs/bayreb_main_report.pdf). More detail regarding specific points have been published in papers, referred below.
+All results of the project have been summarised in [a single report available here](https://raw.githubusercontent.com/locie/bayreb/gh-pages/docs/bayreb_main_report.pdf). More detail regarding specific points have been published in papers, referred below.
+
 
 ## Background literature review on inverse problems and how to solve them
 
