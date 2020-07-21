@@ -1,9 +1,9 @@
 # BAYREB
 
-Le site web du projet ANR BAYREB se trouve à l'adresse suivante :
+The main page of the BAYREB project is available here:
 
 https://locie.github.io/bayreb/
 
-Vous pouvez également en trouver une description sur le site de l'ANR :
+You may also find a description of the project (in French) on the website of the ANR:
 
-http://www.agence-nationale-recherche.fr/?Projet=ANR-15-CE22-0003
+https://anr.fr/Projet-ANR-15-CE22-0003
